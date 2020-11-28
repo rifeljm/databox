@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .header__logoWrapper__logo {
+    margin-left: 5%;
+  }
+}
+
+.header {
+  height: 50px;
+}
+
+.header__logoWrapper {
+  background: rgba(37, 155, 193);
+  height: 35px;
+  padding-top: 15px;
+}
+
+.header__logoWrapper__logo {
+  display: inline;
+  margin-left: 10%;
+  vertical-align: middle;
+  animation-name: spin;
+  animation-duration: 15000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header__logoWrapper__title {
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 5px;
+  color: #055e92;
+}
+
+#filters {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  float: right;
+  margin-right: 10%;
+}
+
+.filter {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.search-wrapper {
+  background: #f8f8f8;
+  padding: 0 10%;
+}
+
+.table__cell {
+  padding: 15px 0;
+  display: table-cell;
+}
+
+.search-wrapper__input {
+  display: inline-block;
+  border: 1px solid #999;
+  font-weight: 100;
+  color: #333;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 8px 8px 8px 28px;
+  outline: none;
+}
+
+.search-wrapper__input::placeholder {
+  color: #aaa;
+  font-weight: 100;
+}
+
+.search-wrapper__svg {
+  position: absolute;
+  left: 9px;
+  top: 2px;
+  display: table;
+}
+
+.create-button {
+  display: inline-block;
+  background-color: #8cc63e;
+  border-radius: 5px;
+  padding: 8px 9px 9px 9px;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.list-wrapper {
+  padding: 20px 10%;
+}
+
+.results {
+  display: table;
+  width: 100%;
+}
+
+.results__row {
+  display: table-row;
+}
+
+.results__cell {
+  display: table-cell;
+  font-size: 13px;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  font-weight: 100;
+}
+
+.results__header-cell {
+  color: #aaa;
+  font-size: 12px;
+  display: table-cell;
+  font-weight: 100;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.highlight {
+  background: yellow;
+  display: inline;
+}

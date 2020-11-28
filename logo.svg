@@ -1,0 +1,18 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="19"
+  height="17"
+>
+  <defs>
+    <image
+      width="22"
+      height="21"
+      id="img1"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAVCAYAAABCIB6VAAABS0lEQVRIS7XVv0rDUBQG8O+kSRDcxAeoOAjt4gvoCzg5KIiN5AEksSBdraMolGRxNJCKgyCdfAEfQBFxqUIfQNwEyW1ypIHGWGwS8idjuPzOd8/JIYSKHqrIxb+wolmcUvCdGc8SYSjVgstvpz2aPZ8XjjtfAB0K13DiL8uAQ4+ZNsd942GKlwYD+BRjsYab448JHsKzPRWumThUdd9usIQuwDt/rs987vWPOrnhKaYeWF1mnMSuf++55lZhWNF76/Clx1jqkXDNlcJwUhtz9Tje13nzqRx+A7AaDSGgpndtvGZZ98TEcsu6I8L2L0S3wjV2C8OqZp0xEH5/UWrCKUvBQDjtp6QCiYkX9F7d96UXAItZUsbPzFumaMMUzdYBviodnoByy94g4gGApawFUhNH0N7FslqTOyBqMtAAUE8qkh3OGjXlXGW/ph+Et48WnLK5SAAAAABJRU5ErkJggg=="
+    />
+  </defs>
+  <style></style>
+  <g id="NAVI">
+    <use id="Shape 820" href="#img1" transform="translate(-1 -2)" />
+  </g>
+</svg>

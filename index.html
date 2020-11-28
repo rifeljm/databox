@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div id="filters"></div>
+      <div class="header__logoWrapper">
+        <img src="logo.svg" class="header__logoWrapper__logo" />
+        <div class="header__logoWrapper__title">DATABOX ADMIN</div>
+      </div>
+    </div>
+    <div class="search-wrapper">
+      <div class="table">
+        <div class="table__cell">
+          <span style="position: relative">
+            <img
+              class="search-wrapper__svg"
+              src="search.svg"
+              alt="Databox"
+              height="17px"
+            />
+          </span>
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Search"
+            class="search-wrapper__input"
+          />
+        </div>
+        <div class="table__cell align-right">
+          <div class="create-button">Create new account</div>
+        </div>
+      </div>
+    </div>
+    <div class="list-wrapper">
+      <div id="list"></div>
+    </div>
+    <script src="util.js"></script>
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
